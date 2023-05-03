@@ -30,8 +30,36 @@ These commands generate the files `reduced.lang` and `reduced.country` respectiv
 `visualize.py` takes `--input_path` and `key` as inputs and generates a bar graph of the top 10 languages or countries (depending on what the input is).
 
 This command:
-----
-creates the following visualization:
+```
+$ ./src/visualize.py --input_path=reduced.lang --key='#coronavirus'
+```
+Creates the following visualization:
+![#coronavirus by language](coronavirus_lang.png)
+
+
+This command:
+```
+$ ./src/visualize.py --input_path=reduced.country --key='#coronavirus'
+```
+Creates the following visualization:
+![#coronavirus by country](coronavirus_country.png)
+
+
+This command:
+```
+$ ./src/visualize.py --input_path=reduced.lang --key='#코로나바이러스'
+```
+Creates the following visualization:
+![#코로나바이러by language](코로나바이러스_lang.png)
+
+
+
+This command:
+```
+$ ./src/visualize.py --input_path=reduced.country --key='#코로나바이러스'
+```
+Creates the following visualization:
+![#코로나바이러by country](코로나바이러스_country.png)
 
 
 
@@ -43,6 +71,7 @@ creates the following visualization:
 
 `alternative_reduce.py` takes as input on the command line a list of hashtags (multiple `--keys` rather than just one).  It outputs a line graph where each line is the amount of time each specified key is used throughout 2020.
 
-The is command: 
------
-creates the following visualization:
+This command:
+Creates the following visualization:
+
+
