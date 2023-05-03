@@ -74,7 +74,7 @@ Creates the following visualization:
 
 **Alternative Reduce:**
 
-`alternative_reduce.py` takes as input on the command line a list of hashtags (multiple `--keys` rather than just one).  It outputs a line graph where each line is the amount of time each specified key is used throughout 2020.
+`alternative_reduce.py` takes as input a list of hashtags (multiple `--keys` rather than just one).  It outputs a line graph where each line is the amount of time each specified key is used throughout 2020.
 
 This command:
 ```
