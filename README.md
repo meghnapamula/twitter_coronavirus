@@ -2,7 +2,7 @@
 
 This project involves using the MapReduce method in order to analyze tweets related to the coronavirus and similar topics in 2020.  The topics analyzed come from key hashtags.
 
-We can break this procedude down into its  map and reduce portions.
+We can break this procedure down into its  map and reduce portions.
 
 **Map:**
 The `map.py` file processes the zip file for an individual day.  It tracks the language used in the tweet and the country that it is tweeted from.  For example, the following command creates a folder `outputs` that contains a file `/geoTwitter20-02-16.zip.lang`.
@@ -10,6 +10,11 @@ This is a file that contains JSON formatted information summarizing the tweets f
 
 ```
 $ ./src/map.py --input_path=/data/Twitter\ dataset/geoTwitter20-02-16.zip
+```
+
+Since we want to track the tweets from the entire year (not just a specific day), we should use the following command.  It will run `maps.py` for every zip files for each day of 2020:
+```
+$ nohup sh run_maps.sh &
 ```
 
 **Reduce:**
