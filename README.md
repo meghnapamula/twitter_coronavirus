@@ -76,6 +76,7 @@ This command:
 $ ./src/alternative_reduce.py --keys '#coronavirus' '#flu' '#sick'
 ```
 Creates the following visualization:
+
 ![#coronavirus and #flu and #sick throughout 2020](coronavirus_flu_sick.png)
 
 
