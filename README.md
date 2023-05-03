@@ -40,6 +40,8 @@ $ ./src/visualize.py --input_path=reduced.lang --key='#coronavirus'
 ```
 Creates the following visualization:
 
+## Tweets with #coronavirus by language (2020)
+
 ![#coronavirus by language](coronavirus_lang.png)
 
 
@@ -48,6 +50,8 @@ This command:
 $ ./src/visualize.py --input_path=reduced.country --key='#coronavirus'
 ```
 Creates the following visualization:
+
+## Tweets with #coronavirus by country (2020)
 
 ![#coronavirus by country](coronavirus_country.png)
 
@@ -58,6 +62,8 @@ $ ./src/visualize.py --input_path=reduced.lang --key='#코로나바이러스'
 ```
 Creates the following visualization:
 
+## Tweets with #코로나바이러 by language (2020)
+
 ![#코로나바이러by language](코로나바이러스_lang.png)
 
 
@@ -67,6 +73,8 @@ This command:
 $ ./src/visualize.py --input_path=reduced.country --key='#코로나바이러스'
 ```
 Creates the following visualization:
+
+## Tweets with #코로나바이러 by country (2020)
 
 ![#코로나바이러by country](코로나바이러스_country.png)
 
@@ -82,6 +90,8 @@ $ ./src/alternative_reduce.py --keys '#coronavirus' '#flu' '#sick'
 ```
 Creates the following visualization:
 
+## Tweets with #coronavirus, #flu, and #sick throughout 2020
+
 ![#coronavirus and #flu and #sick throughout 2020](coronavirus_flu_sick.png)
 
 
@@ -92,6 +102,8 @@ This command:
 $ ./src/alternative_reduce.py --keys '#flu' '#sick'
 ```
 Creates the following visualization:
+
+## Tweets with #flu and #sick throughout 2020
 
 ![#flu and #sick throughout 2020](flu_sick.png)
 
